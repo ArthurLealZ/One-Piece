@@ -10,6 +10,9 @@ console.log(botoes);
 botoes.forEach(botao => {
     botao. addEventListener("click", () => {
 
+        var musica = document.getElementById("background_music");
+        musica.play();
+
 
 
         const botaoSelecionado = document.querySelector(".botao.selecionado");
@@ -42,8 +45,6 @@ botoes.forEach((botao, indice) => {
     });
 });
 
-var musica = document.getElementById("background_music");
-musica.play();
 
 
 
